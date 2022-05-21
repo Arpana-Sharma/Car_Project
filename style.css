@@ -1,0 +1,233 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    color: rgb(240, 232, 232);
+}
+
+h1 {
+    font-size: 5rem !important;
+}
+
+/* Navbar */
+#navbar {
+    scroll-behavior: smooth;
+    cursor: pointer;
+    display: flex;
+    color: white;
+    padding: 20px 30px;
+    padding-bottom: 20px;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+#navbar ul {
+    position: absolute;
+    display: flex;
+    list-style: none;
+    padding-left: 50px;
+    right: 40px;
+}
+
+#navbar li a {
+    border-radius: 20px;
+    padding-top: 13px !important;
+    padding-bottom: 13px !important;
+    height: 20px;
+    display: block;
+    text-decoration: none;
+    padding: 0px 15px;
+}
+
+#navbar li a:hover {
+    opacity: 0.69;
+    background-color: white;
+    color: rgb(112, 111, 111);
+}
+
+.btn {
+    color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+    cursor: pointer;
+    display: block;
+    font-size: 0.8rem;
+    width: 128px;
+    height: 40px;
+    margin-top: 10px;
+    align-items: center;
+    justify-items: center;
+    background-color: black;
+    opacity: 0.48;
+}
+
+.btn a{
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.btn:hover {
+    background-color: rgb(114, 11, 11);
+    color: white;
+    opacity: 1.11;
+}
+
+.sub-menu {
+    display: none;
+}
+
+#navbar ul li:hover .sub-menu {
+    display: block;
+    border: 1px solid white;
+}
+
+#navbar ul li:hover #sub-menu1 ul {
+    display: block;
+    position: absolute;
+    top: 50px;
+    right: 240px;
+}
+
+#navbar ul li:hover #sub-menu2 ul {
+    display: block;
+    position: absolute;
+    top: 50px;
+    right: 175px;
+}
+
+#navbar ul li:hover #sub-menu3 ul {
+    display: block;
+    position: absolute;
+    top: 50px;
+    right: 98px;
+}
+
+#navbar ul li:hover #sub-menu4 ul {
+    display: block;
+    position: absolute;
+    top: 50px;
+    right: 15px;
+}
+
+.sub-menu li a:hover {
+    opacity: 0.69;
+    background-color: white;
+    color: rgb(112, 111, 111);
+}
+
+.sub-menu li a {
+    display: block;
+    border-radius: 0px !important;
+}
+
+/* Intro */
+#intro {
+    height: 600px;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    box-shadow: 0 0 0px 0px white inset;
+}
+
+#intro h1 {
+    color: rgb(211, 211, 211);
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+/* Our Collections */
+
+#myVideo {
+    height: auto;
+    width: 100%;
+    filter: brightness(45%);
+    background-color: black;
+    opacity: 1.18;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#collection-box p {
+    color: black;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#collection {
+    padding-top: 80px;
+    text-align: center;
+    font-size: 3rem;
+    color: black;
+}
+
+#collection-box{
+    padding-bottom: 200px;
+}
+
+.boxes {
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    box-shadow: 1px 4px 8px 4px grey;
+}
+
+.box:hover {
+    transform: scale(1.1);
+}
+
+.images {
+    display: inline-block;
+    height: 30%;
+    width: 100%;
+}
+
+.box h2 {
+    color: black;
+    margin: 30px 20px;
+    text-align: center;
+}
+
+.box p {
+    color: black;
+    margin: 30px 20px;
+    margin-bottom: 0px;
+}
+
+/* Footer */
+
+footer {
+    background-color: rgb(1, 1, 20);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footwrap {
+    color: rgb(231, 225, 225);
+    display: flex;
+    flex-direction: column;
+}
+
+.cont {
+    margin: 55px 90px;
+}
+
+.footwrap a {
+    color: rgb(238, 237, 237);
+    padding: 7px 0px;
+}
+
+.cont h3 {
+    color: rgb(247, 242, 242);
+}
+
+

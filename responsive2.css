@@ -1,0 +1,20 @@
+.boxes{
+    flex-direction: column;
+    margin: auto;
+}
+.boxes{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    margin: 20px;
+}
+.boxes{
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+#primary{
+    font-size: 5px;
+}

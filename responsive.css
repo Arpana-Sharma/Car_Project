@@ -1,0 +1,43 @@
+/* Navbar */
+#navbar{
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 20px;
+}
+#navbar ul{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+#left h3{
+    text-align: center;
+}
+/* Intro */
+#primary{
+    font-size: 1.5rem !important;
+}
+#intro{
+    height: 300px;
+}
+#myvideo{
+    height: 300px;
+}
+/* Collection */
+.boxes{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    margin: 20px;
+}
+.boxes{
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+/* Footer */
+footer{
+    flex-direction: column;
+}
